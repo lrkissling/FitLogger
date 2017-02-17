@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+    	android:id="@+id/tvWorkoutWorkflowNotesTitle"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:text="Exercise Note"
+    />
+    
+    <EditText
+      	android:id="@+id/etWorkoutWorkflowNotesNote"
+      	android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:hint="Exercise Note"  
+      	android:inputType="textMultiLine"
+      	android:minLines="10"
+      	android:gravity="top"
+    />
+    
+    <Button 
+    	android:id="@+id/btnWorkoutWorkflowNotesSubmitNote"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="Update Note"
+    	android:gravity="center"
+    />
+
+</LinearLayout>

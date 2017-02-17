@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/llWorkoutExerciseListingContainer" 
+    android:baselineAligned="false" >    
+    
+    <TextView 
+      	android:id="@+id/tvWorkoutExerciseListingAppTitleBar"
+      	android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:text="FitLogger"
+      	android:textColor="#FFFFFF"
+      	android:gravity="center"
+      	android:background="@drawable/shape1test"  
+      	android:paddingTop="5sp"
+      	android:paddingBottom="5sp"
+    />
+    
+   	<FrameLayout 
+	    android:id="@+id/flWorkoutExerciseListingMainFrame"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	/>
+</LinearLayout>

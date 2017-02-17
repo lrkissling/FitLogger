@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:id="@+id/llPerformWorkoutContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+    
+        <TextView 
+      		android:id="@+id/tvPerformWorkoutAppTitleBar"
+      		android:layout_width="match_parent"
+      		android:layout_height="wrap_content"
+      		android:text="FitLogger"
+      		android:textColor="#FFFFFF"
+      		android:gravity="center"
+      		android:background="@drawable/shape1test"  
+      		android:paddingTop="5sp"
+      		android:paddingBottom="5sp"
+    	/>
+	    <LinearLayout 
+			android:id="@+id/llWorkoutWorkflowSetTopBar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"    
+		>
+			<Button 
+			    android:id="@+id/btnPerformWorkoutPrev"
+			  	android:layout_width="wrap_content"
+			   	android:layout_height="wrap_content"
+			   	android:layout_weight="0.33"
+			   	android:text="Begin"		    	
+			/>
+				    
+			<TextView
+			    android:id="@+id/tvPerformWorkoutPercentageDone"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.33"
+			    android:text=" % Done"
+			    android:paddingLeft="15dip"
+			    
+			/>
+				    
+			<Button 
+			  	android:id="@+id/btnPerformWorkoutNext"
+			   	android:layout_width="wrap_content"
+			  	android:layout_height="wrap_content"
+			   	android:layout_weight="0.33"
+			  	android:text="Next"    
+			/>
+		</LinearLayout>
+	    
+	
+	    <FrameLayout 
+	    	android:id="@+id/flPerformWorkoutMainFrame"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    />
+    </LinearLayout>
+     
+
+
+</ScrollView>

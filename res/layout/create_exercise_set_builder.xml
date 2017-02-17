@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llSetGeneration"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    <EditText
+        android:id="@+id/etCreateExerciseWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:ems="4" />
+
+    <TextView
+        android:id="@+id/tvCreateExerciseSetNum"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="0.31"
+        android:ems="4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <EditText
+        android:id="@+id/etCreateExerciseReps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:ems="4"
+        android:hint="@string/reps"
+        android:inputType="number"
+        android:maxLength="4" />
+
+</LinearLayout>
